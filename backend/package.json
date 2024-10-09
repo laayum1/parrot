@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@eslint/config-array": "^0.18.0",
+    "@eslint/object-schema": "^2.1.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.1",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "glob": "^9.3.5",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4",
+    "passport-roblox": "^0.0.2",
+    "rimraf": "^4.4.1",
+    "superagent": "^9.0.2"
+  }
+}

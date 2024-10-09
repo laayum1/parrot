@@ -1,0 +1,78 @@
+/* frontend/src/styles/HomePage.css */
+.home-container {
+    padding: 20px;
+}
+
+.hero-section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2); /* Diagonal gradient similar to Stripe */
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+.get-started {
+    background-color: #ff7f50;
+    color: #fff;
+}
+
+.get-started:hover {
+    background-color: #ff6347;
+}
+
+.contact-sales {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.contact-sales:hover {
+    background-color: #fff;
+    color: #2a5298;
+}
+
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+    color: #2a5298;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #555;
+}

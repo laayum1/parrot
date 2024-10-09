@@ -1,0 +1,48 @@
+/* frontend/src/styles/SupportPage.css */
+.support-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.support-container h1 {
+    margin-bottom: 30px;
+    color: #2a5298;
+}
+
+.support-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support-content h2 {
+    margin-bottom: 15px;
+    color: #ff7f50;
+}
+
+.support-content p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.support-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.support-content ul li {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.support-content ul li a {
+    color: #2a5298;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.support-content ul li a:hover {
+    color: #ff7f50;
+}

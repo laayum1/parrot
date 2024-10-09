@@ -1,0 +1,18 @@
+/* frontend/src/components/AnimatedNavbar/DropdownContents/DevelopersDropdown.css */
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-item {
+    padding: 10px 15px;
+    color: #333333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+    color: #2a5298;
+  }
+  

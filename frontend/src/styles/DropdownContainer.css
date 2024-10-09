@@ -1,0 +1,39 @@
+/* frontend/src/components/AnimatedNavbar/DropdownContainer.css */
+.dropdown-container {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+  }
+  
+  .dropdown-container.animating-in {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .dropdown-container.animating-out {
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .dropdown-container.right {
+    left: 100%;
+    top: 0;
+  }
+  
+  .dropdown-container.left {
+    right: 100%;
+    top: 0;
+  }
+  

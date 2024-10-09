@@ -1,0 +1,82 @@
+/* frontend/src/styles/PricingPage.css */
+.pricing-page {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.pricing-page h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #333;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    transition: border 0.3s, transform 0.3s;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card.selected {
+    border: 2px solid blue;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.price {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card ul li {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.card ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: green;
+}
+
+.select-btn {
+    padding: 10px 20px;
+    background: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px;
+}
+
+.select-btn:hover {
+    background: darkblue;
+}

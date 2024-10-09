@@ -1,0 +1,19 @@
+/* frontend/src/components/DropdownContents/DropdownContents.css */
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  
+  .dropdown-content a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333333;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ff7f50;
+    color: #ffffff;
+  }
+  

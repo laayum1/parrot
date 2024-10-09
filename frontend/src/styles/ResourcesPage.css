@@ -1,0 +1,47 @@
+/* frontend/src/styles/ResourcesPage.css */
+.resources-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.resources-container h1 {
+    margin-bottom: 30px;
+    color: #2a5298;
+}
+
+.resources-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.resources-nav a {
+    text-decoration: none;
+    color: #ff7f50;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.resources-nav a:hover {
+    color: #ff6347;
+}
+
+.resources-page {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.resources-page h2 {
+    margin-bottom: 15px;
+    color: #2a5298;
+}
+
+.resources-page p {
+    font-size: 1em;
+    color: #555;
+}

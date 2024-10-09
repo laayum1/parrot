@@ -1,0 +1,19 @@
+/* frontend/src/components/AnimatedNavbar/NavbarItem.css */
+.navbar-item {
+    position: relative;
+    margin: 0 15px;
+  }
+  
+  .navbar-link {
+    cursor: pointer;
+    padding: 15px 10px;
+    display: block;
+    color: #333333;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #2a5298;
+  }
+  

@@ -1,0 +1,36 @@
+/* frontend/src/styles/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-item {
+    list-style: none;
+    position: relative;
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #333333;
+    transition: color 0.3s;
+  }
+  
+  .navbar-item:hover {
+    color: #ff7f50;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .navbar-item a:hover {
+    color: #ff6347;
+  }
+  
